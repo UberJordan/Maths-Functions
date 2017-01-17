@@ -4,6 +4,10 @@ int add(int x, int y) {
 	return x + y;
 }
 
+int subtract(int x, int y) {
+	return x - y;
+}
+
 int main() {
 	int a, b;
 	
@@ -13,6 +17,7 @@ int main() {
 	printf("\n");
 	
 	printf("%i\n", add(a, b));
+	printf("%i\n", subtract(a, b));
 	
 	return 0;
 }
