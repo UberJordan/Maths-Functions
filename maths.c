@@ -8,6 +8,10 @@ int subtract(int x, int y) {
 	return x - y;
 }
 
+int multiply(int x, int y) {
+	return x * y;
+}
+
 int main() {
 	int a, b;
 	
@@ -18,6 +22,7 @@ int main() {
 	
 	printf("%i\n", add(a, b));
 	printf("%i\n", subtract(a, b));
+	printf("%i\n", multiply(a, b));
 	
 	return 0;
 }
